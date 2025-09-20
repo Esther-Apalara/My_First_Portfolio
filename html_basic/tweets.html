@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tweets</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tweets</title>
 </head>
 <body>
-    <h1>Welcome to My Tweets Page</h1>
-    <h2>About This Page</h2>
-    <h3>Getting Started With HTML</h3>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-    <p>This page shows one of my tweets embedded below.</p>
+  <main>
+    <article>
+      <h1>Welcome to My Tweets Page</h1>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
+      <blockquote class="twitter-tweet">
         <p lang="en" dir="ltr">Hello world, this is my first embedded tweet! 🌍🚀</p>&mdash; Example Tweet 
         (<a href="https://x.com/EstherApalara/status/1961401551118803225">source</a>)
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Go back to Homepage</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Esther Apalara - <a href="https://github.com/Esther-Apalara" target="_blank">here</a></p>
+  </footer>
 </body>
 </html>
